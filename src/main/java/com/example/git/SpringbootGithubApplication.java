@@ -13,11 +13,11 @@ public class SpringbootGithubApplication {
 		SpringApplication.run(SpringbootGithubApplication.class, args);
 	}
 	
-	
 	@GetMapping("/data")
 	public String data()
 	{
 		return "Hello";
 	}
+
 
 }
